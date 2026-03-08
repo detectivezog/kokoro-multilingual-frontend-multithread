@@ -1,0 +1,21 @@
+# --- Core Application & UI ---
+customtkinter
+soundfile
+sounddevice
+numpy
+
+# --- Kokoro TTS Engine ---
+kokoro-onnx
+
+# --- Language & Phoneme Engines ---
+# English (US) Phonemizer
+gruut[en]
+# French (France) Phonemizer
+gruut[fr]
+
+# Mandarin Chinese Dependencies (Pure Python)
+misaki[zh]
+# extras
+misaki[es,de,it,pt]
+# Japanese Dependencies (Pure Python to avoid compiler hell)
+pykakasi
