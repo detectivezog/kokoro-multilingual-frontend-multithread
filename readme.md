@@ -7,4 +7,7 @@
 - Exports to FLAC
 - Ehmm... What else... Multithreaded (Edit `self.GENERATION_THREADS = 3` in kokoro_conductor.py to adjust)
 - Uses 1 thread for playback, any any extra threads to preprocess sentences.
+
 - Splits sentences in groups of less than 500 tokens for languages that have the 501 tokens went cuckoo puff traceback.
+
+  Should work as is. Made with Python 3.12
